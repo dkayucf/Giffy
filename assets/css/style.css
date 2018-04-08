@@ -1,0 +1,62 @@
+img{
+    cursor: pointer;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+a{
+    font-size: 13px;
+}
+
+.mic{
+    background-size: 24px 24px;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    vertical-align: middle; 
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 999;
+}
+
+#search-input {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+    border-radius: 2px;
+}
+
+#search-input:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#search-input:focus, #search-input:active {
+    outline: none!important;
+    outline-color: transparent;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.form-control:focus {
+    border-color: transparent!important;
+}
+
+.bell {
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.55);
+    height: 30px;
+    width: 30px;
+}
+
+.letter {
+    border-radius: 50%;
+}
+
+.rating {
+    max-width: 40%;
+}
+
+.giffyImages {
+    max-width: 270px;
+    height: 250px;
+}
